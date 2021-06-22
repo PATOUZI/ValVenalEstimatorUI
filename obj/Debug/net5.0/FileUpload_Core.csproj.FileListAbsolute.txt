@@ -1,0 +1,85 @@
+F:\ASP.NET Core projects\FileUpload_Core\bin\Debug\net5.0\appsettings.Development.json
+F:\ASP.NET Core projects\FileUpload_Core\bin\Debug\net5.0\appsettings.json
+F:\ASP.NET Core projects\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.exe
+F:\ASP.NET Core projects\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.deps.json
+F:\ASP.NET Core projects\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.runtimeconfig.json
+F:\ASP.NET Core projects\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.runtimeconfig.dev.json
+F:\ASP.NET Core projects\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.dll
+F:\ASP.NET Core projects\FileUpload_Core\bin\Debug\net5.0\ref\FileUpload_Core.dll
+F:\ASP.NET Core projects\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.pdb
+F:\ASP.NET Core projects\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.Views.dll
+F:\ASP.NET Core projects\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.Views.pdb
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.csprojAssemblyReference.cache
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.AssemblyInfoInputs.cache
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.AssemblyInfo.cs
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.csproj.CoreCompileInputs.cache
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.MvcApplicationPartsAssemblyInfo.cache
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.RazorAssemblyInfo.cache
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.RazorAssemblyInfo.cs
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\staticwebassets\FileUpload_Core.StaticWebAssets.Manifest.cache
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\staticwebassets\FileUpload_Core.StaticWebAssets.xml
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\scopedcss\bundle\FileUpload_Core.styles.css
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.TagHelpers.input.cache
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.TagHelpers.output.cache
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.RazorCoreGenerate.cache
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Home\FileUpload.cshtml.g.cs
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.RazorTargetAssemblyInfo.cache
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.RazorTargetAssemblyInfo.cs
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.Views.pdb
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.dll
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\ref\FileUpload_Core.dll
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.pdb
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.genruntimeconfig.cache
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.csproj.CopyComplete
+F:\ASP.NET Core projects\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Home\GetValVenal.cshtml.g.cs
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.csprojAssemblyReference.cache
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.AssemblyInfoInputs.cache
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.AssemblyInfo.cs
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.csproj.CoreCompileInputs.cache
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.MvcApplicationPartsAssemblyInfo.cache
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.RazorAssemblyInfo.cache
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.RazorAssemblyInfo.cs
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.dll
+F:\FileUpload_Core\obj\Debug\net5.0\ref\FileUpload_Core.dll
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.pdb
+F:\FileUpload_Core\bin\Debug\net5.0\appsettings.Development.json
+F:\FileUpload_Core\bin\Debug\net5.0\appsettings.json
+F:\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.exe
+F:\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.deps.json
+F:\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.runtimeconfig.json
+F:\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.runtimeconfig.dev.json
+F:\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.dll
+F:\FileUpload_Core\bin\Debug\net5.0\ref\FileUpload_Core.dll
+F:\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.pdb
+F:\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.Views.dll
+F:\FileUpload_Core\bin\Debug\net5.0\FileUpload_Core.Views.pdb
+F:\FileUpload_Core\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\FileUpload_Core\obj\Debug\net5.0\staticwebassets\FileUpload_Core.StaticWebAssets.Manifest.cache
+F:\FileUpload_Core\obj\Debug\net5.0\staticwebassets\FileUpload_Core.StaticWebAssets.xml
+F:\FileUpload_Core\obj\Debug\net5.0\scopedcss\bundle\FileUpload_Core.styles.css
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.TagHelpers.input.cache
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.TagHelpers.output.cache
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.RazorCoreGenerate.cache
+F:\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Home\FileUpload.cshtml.g.cs
+F:\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Home\GetValVenal.cshtml.g.cs
+F:\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+F:\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+F:\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+F:\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+F:\FileUpload_Core\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+F:\FileUpload_Core\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+F:\FileUpload_Core\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.RazorTargetAssemblyInfo.cache
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.RazorTargetAssemblyInfo.cs
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.Views.pdb
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.csproj.CopyComplete
+F:\FileUpload_Core\obj\Debug\net5.0\FileUpload_Core.genruntimeconfig.cache

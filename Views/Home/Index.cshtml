@@ -1,0 +1,57 @@
+﻿@model IEnumerable<string>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="GetValVenal">
+    <label for="Prefecture">Prefecture</label>
+    <select name="prefect" id="prefect">
+        @foreach (string p in Model)
+        {
+            <option value="@p">@p</option>                
+        }
+    </select>
+    <br/>
+    <label for="District">Quartier</label>
+    <select name="dist" id="dist"> 
+    </select>
+    <br/>
+    <label for="area">Superficie</label>
+    <input name="area" />
+    <div class="form-group">
+        <input type="submit" value="Envoyer" />
+    </div-->
+</form>
+
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var PrefectSelected = $("#prefect");
+            var DistrictSelected = $("#dist");
+            DistrictSelected.prop('disabled', true);
+
+            PrefectSelected.change(function (){
+                if($(this).val() == "") {
+                    DistrictSelected.prop('disabled', true);
+                    DistrictSelected.val("");
+                }
+                else {
+                    $.ajax({
+                        url: "https://localhost:5004/api/Places/district/" + $(this).val(),
+                        method: "get",
+                        success: function (data) {
+                            DistrictSelected.prop('disabled', false);
+                            console.log("Success");
+                            DistrictSelected.empty();
+                            DistrictSelected.append($('<option/>', {value: '', text: '-- Select District --'}));
+                            $(data).each(function(index, item) {
+                                DistrictSelected.append($('<option/>', {value: item, text: item}));
+                            });
+                        }
+                    });
+                }
+            });
+
+        });
+    </script>
+}

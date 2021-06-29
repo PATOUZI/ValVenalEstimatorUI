@@ -16,14 +16,14 @@ namespace FileUpload_Core.Controllers
     {
         public async Task<IActionResult> Index()
         {
-            List<string> PrefectureList = new List<string>();
+            List<Prefecture> PrefectureList = new List<Prefecture>();
             dynamic model = new ExpandoObject();
             using (var httpClient = new HttpClient())
             {
-                using (var response = await httpClient.GetAsync("https://localhost:5004/api/Places/prefecture"))
+                using (var response = await httpClient.GetAsync("https://localhost:5004/api/Prefectures"))
                 {
                     string apiResponse = await response.Content.ReadAsStringAsync();
-                    PrefectureList = JsonConvert.DeserializeObject<List<string>>(apiResponse);
+                    PrefectureList = JsonConvert.DeserializeObject<List<Prefecture>>(apiResponse);
                 }
             }
             return View(PrefectureList);
@@ -41,6 +41,34 @@ namespace FileUpload_Core.Controllers
             TempData["msg"] = "File Uploaded successfully.";
             return View();
         }
+
+        /*[HttpPost]
+        public async Task<IActionResult> GetValVenal(long prefectId, string dist, int area)
+        {
+            string accessPath = @"https://localhost:5004/api/Places/" + prefectId + "/" + dist + "/" + area ;
+            ValVenalDTO ValVenalDTO = new ValVenalDTO();
+            using (var httpClient = new HttpClient())
+            {
+                using (var response = await httpClient.GetAsync(accessPath))
+                {
+                    if (response.StatusCode == System.Net.HttpStatusCode.OK)
+                    {
+                        Console.WriteLine("*****************************************");
+                        string apiResponse = await response.Content.ReadAsStringAsync();
+                        ValVenalDTO = JsonConvert.DeserializeObject<ValVenalDTO>(apiResponse);   
+                        Console.WriteLine("ValVenal : " + ValVenalDTO.ValVenal);
+
+                    }
+                    else
+                        ViewBag.StatusCode = response.StatusCode;
+                }
+            }
+            //ValVenalDTO.Prefecture = prefect;
+            ValVenalDTO.District = dist;
+            ValVenalDTO.Area = area;
+            Console.WriteLine(ValVenalDTO.ValVenal);
+            return View(ValVenalDTO);
+        }*/
 
         [HttpPost]
         public async Task<IActionResult> GetValVenal(string prefect, string dist, int area)
@@ -89,11 +117,6 @@ namespace FileUpload_Core.Controllers
                     string filePath = Path.Combine(path, filename);
                     using (var httpClient = new HttpClient())
                     {
-                        /*string accessPath = @"https://localhost:5004/api/Places/LoadDataInDb?accessPath=" + filePath;
-                        await httpClient.GetAsync(accessPath);*/
-
-                        //https://localhost:5004/api/Places/ + filePath Ne fonctionne pas avec cet URL
-
                         string accessPath = @"https://localhost:5004/api/Places/LoadDataInDataBase?accessPath=" + filePath;
                         var stringContent = new FormUrlEncodedContent(new[]
                         {

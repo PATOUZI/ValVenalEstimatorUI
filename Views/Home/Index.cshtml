@@ -1,4 +1,4 @@
-﻿@model IEnumerable<string>
+﻿@model IEnumerable<Prefecture>
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -6,9 +6,10 @@
 <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="GetValVenal">
     <label for="Prefecture">Prefecture</label>
     <select name="prefect" id="prefect">
-        @foreach (string p in Model)
+        <option value="">Choisisez la préfecture</option>
+        @foreach (Prefecture p in Model)
         {
-            <option value="@p">@p</option>                
+            <option value="@p.Id">@p.Name</option>                
         }
     </select>
     <br/>
